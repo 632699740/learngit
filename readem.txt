@@ -7,4 +7,8 @@ xiaolong
 再修改readme
 分支dev
 解决冲突feature1和master1
+<<<<<<< HEAD
 master
+=======
+master
+>>>>>>> dev
