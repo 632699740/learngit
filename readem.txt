@@ -6,6 +6,4 @@ xiaolong
 管理修改
 再修改readme
 分支dev
-<<<<<<< HEAD
 解决冲突feature1和master1
->>>>>>> feature1
