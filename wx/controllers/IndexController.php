@@ -72,7 +72,7 @@ class IndexController extends Controller
             return $this->redirect(array('/index/tables'));
         }
         $users=new Users();
-        $up=$users->updateAll(['username'=>$username,'password'=>$password],['id'=>$id]);
+        $up=$users->updateAll(['password'=>$password],['id'=>$id]);
         if($up){
             return $this->redirect(array('/index/tables'));
         }else{
